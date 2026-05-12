@@ -1,0 +1,17 @@
+p{
+    display: none;
+    color: white;
+    background-color: black;
+    height: 100px;
+}
+
+a{
+    background-color: grey;
+}
+
+div{
+    background-color: grey;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}

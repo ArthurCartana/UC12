@@ -1,0 +1,43 @@
+h1 {
+      /* muda a cor da fonte */
+    color: rgb(238, 0, 48);
+     /* muda a cor do fundo */
+    background-color: black;
+    /* muda o tamanho da fonte */
+    font-size: 48px;
+}
+
+h2 {
+    color: rgb(238, 0, 48);
+    background-color: black;
+}
+
+.fundo-cinza {
+    background-color: grey;
+}
+
+img {
+    /* muda a largura*/
+    width: 300px;
+    /* muda a altura*/
+    /* height: 100px; */
+}
+
+a{
+    text-decoration: none; /* muda a decoração do texto (sublinhado)*/
+    color: black;
+}
+
+button{
+    color: white;
+    background-color: darkred;
+    border: none; /* remove a borda */
+    border-radius: 5px; /* arredonda as bordas */
+    padding: 10px; /* muda o espaçamento dentro do elemento */
+    cursor: pointer; /* muda o estilo do cursor do mouse */
+}
+
+/* aplica estilo quando passar o mouse em cima */
+button:hover {
+    background-color: rgb(208, 54, 54);
+}

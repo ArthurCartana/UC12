@@ -1,0 +1,116 @@
+h1 {
+    color: white;
+    background-color: black;
+}
+
+/* Exercício 2 */
+.div1 {
+    display: inline-block;
+    width: 200px;
+    background-color: crimson;
+}
+
+.div2 {
+    display: inline-block;
+    width: 200px;
+    background-color: cadetblue;
+}
+
+/* Exercício 3 */
+.span1 {
+    display: inline-block;
+    width: 200px;
+    background-color: blueviolet;
+}
+
+.span2 {
+    display: inline-block;
+    width: 200px;
+    background-color: darkolivegreen;
+}
+
+/* Exercício 5*/
+.caixa1 {
+    background-color: blueviolet;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+
+.caixa2 {
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+
+.caixa3 {
+    background-color: violet;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+
+/* Exercício 6 */
+.caixaB {
+    display: block;
+    width: 150px;
+    height: 80px;
+    background: rgb(3, 3, 3);
+}
+
+.caixaI {
+    display: inline;
+    width: 150px;
+    height: 80px;
+    background: gray;
+}
+
+.caixaIB {
+    display: inline-block;
+    width: 150px;
+    height: 80px;
+    background: rgb(207, 17, 17);
+}
+
+/* Exercício 7 */
+.div7 {
+    display: block;
+    height: 100px;
+    width: 100px;
+    background-color: cadetblue;
+    /*display: none;
+    visibility: hidden;*/
+}
+
+/* Exercício 8 */
+.link1 {
+    width: 200px;
+    display: inline-block;
+    background-color: yellow;
+}
+
+/* Exercício 9 */
+.link2 {
+    width: 200px;
+    display: inline-block;
+    background: gray;
+}
+
+/* Exercício 10 */
+.card {
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    background-color: blue;
+}
+
+h2 {
+
+    display: inline-block;
+}
+
+button {
+    display: inline-block;
+    background-color: crimson;
+}
