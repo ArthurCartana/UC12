@@ -1,0 +1,21 @@
+.caixa1 {
+    width: 200;
+    height: 180;
+    background-color: rgb(98, 186, 233);
+    padding: 150px;
+    border: 25px dashed rgb(32, 0, 241);
+    margin: 20px;
+    display: inline-block;
+}
+
+
+.caixa2 {
+    width: 200;
+    height: 180;
+    background-color: pink;
+    padding: 150px;
+    border: 25px dashed red;
+    margin: 20px;
+    display: inline-block;
+} 
+

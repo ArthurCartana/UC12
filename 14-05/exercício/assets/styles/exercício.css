@@ -1,0 +1,44 @@
+.card{
+    width: 350px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #dcdcdc;
+    border-radius: 15px;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.card h2{
+    color: black;
+    margin-bottom: 15px;
+}
+
+.preco{
+    color: green;
+    display: block;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.card button {
+    width: 100%;
+    background-color: royalblue;
+    padding: 15px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: blue;
+    transform: scale(1.08);
+    transition: ease 2s;
+}
