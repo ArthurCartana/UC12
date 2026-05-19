@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(0,0,0,0.456);
+    color: white;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+.banner-principal {
+    height: 1000px;
+    /* adiciona uma imagem como fundo da div */
+    background-image: url(https://images.pexels.com/photos/4860589/pexels-photo-4860589.jpeg);
+    /* ajusta a imagem para ficar contida dentro da div */
+    background-size: cover;
+    /* a imagem fica fixa mesmo quando rolamos a página, num edeito que chamamos de paralaxe */
+    background-attachment: fixed;
+}
