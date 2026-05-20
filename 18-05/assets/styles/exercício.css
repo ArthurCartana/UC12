@@ -6,7 +6,7 @@
 }
 
 .absolute {
-    background-color: lightsalmon;
+    background-color: rgb(98, 59, 251);
     padding: 1px 5px;
     position: absolute;
     top: 8px;

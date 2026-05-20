@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container-pai {
+    width: 100%;
+    height: 350px;
+    background-color: black;
+    display: grid;
+    gap: 20px;
+    grid-template-columns:
+        repeat(5, 1fr);
+    /* Primeiro caracter: quantidade. Segundo caracter: tamanho. */
+
+}
+
+.container-pai-linhas {
+    height: 1000px;
+    display: grid;
+    background-color: greenyellow;
+    gap: 20px;
+    margin-top: 50px;
+    grid-template-rows:
+        repeat(5, 1fr);
+
+}
+
+#item1 {
+    background-color: blueviolet;
+    grid-column: 1/3;
+}
+
+#item2 {
+    background-color: red;
+}
+
+#item3 {
+    background-color: pink;
+    grid-column: 4/6;
+}
