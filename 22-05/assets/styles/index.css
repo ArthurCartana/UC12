@@ -1,0 +1,69 @@
+body {
+    background-color: white;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* .container-pai{
+    background-color: royalblue;
+    height: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.container-filho{
+    background-color: yellow;
+    padding: 50px;
+} */
+
+header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+nav {
+    background-color: purple;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+a {
+    color: white;
+}
+
+.banner-principal {
+    /* 80% da altura da tela */
+    height: 80vh;
+    background-image: url(https://images.pexels.com/photos/29422607/pexels-photo-29422607.jpeg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-info {
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.banner-info div{
+    background-color: blueviolet;
+    width: 50%;
+}
