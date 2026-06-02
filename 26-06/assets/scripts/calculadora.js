@@ -58,7 +58,7 @@ document.getElementById("btn=").addEventListener("click", () => {
     const num2 = Number(segundoNumero)
     
     let resultado;
-    switch(operador){
+    switch(operacao){
         case "+":
             
             resultado = num1 + num2
