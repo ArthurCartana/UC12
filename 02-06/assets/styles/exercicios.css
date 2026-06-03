@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.container{
+    background-color: black;
+    width: 100%;
+    min-height: 20vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: lightblue;
+}
+
+.texto {
+    color: blueviolet;
+    font-size: 50px;
+}

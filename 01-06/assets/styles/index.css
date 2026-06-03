@@ -28,6 +28,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px 40px;
+    position: relative;
 }
 
 a {
@@ -57,7 +58,9 @@ a {
         flex-direction: column;
         background-color: black;
         position: absolute;
-        bottom: 0;
-        left: -10;
+        top: 100%;
+        right: 10px;
+        padding: 7px;
+        border-radius: 0px 0px 10px 10px;
     }
 }
