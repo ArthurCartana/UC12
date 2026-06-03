@@ -25,13 +25,16 @@ btnLista.addEventListener("click", () => {
 
 // EXERCÍCIO 4
 const botaoRem = document.getElementById("btnListaRem")
+const elemento = document.querySelectorAll("li")
 
 botaoRem.addEventListener("click", () => {
-    lista.remove("B")
+    if (elemento.length > 0) {
+        elemento[0].remove()
+    }
 })
 
 // EXERCÍCIO 5
-const input = document.getElementById("input")
+const input = document.querySelector("input")
 const p = document.querySelector("p")
 input.addEventListener("change", () => {
     p.textContent = input.value
