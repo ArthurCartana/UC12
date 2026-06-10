@@ -1,6 +1,5 @@
 const texto = document.querySelector("h1")
 
-
 // EXERCÍCIO 1
 const btn = document.getElementById("btn")
 btn.addEventListener("click", () => {
