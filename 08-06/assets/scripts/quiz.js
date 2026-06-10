@@ -11,18 +11,18 @@ const perguntas = [
 
     {
         categoria: "Champions League",
-        texto: "Qual time nunca ganhou um Champions League?",
-        opcoes: ["Hamburgo", "Nottingham Forest", "Arsenal", "Porto"],
+        texto: "Qual time nunca ganhou uma Champions League?",
+        opcoes: ["Hamburgo", "Nottingham Forest", "Roma", "Porto"],
         correta: 2,
-        explicacao: "Por incrível que parece o Arsenal nunca ganhou uma edição de Champions League.",
+        explicacao: "Por incrível que parece o Roma nunca ganhou uma edição de Champions League.",
     },
 
     {
-        categoria: "Competições Europeias",
-        texto: "Entre os times abaixo, qual já se classificou para uma competição europeia?",
-        opcoes: ["Sunderland", "Stoke City", "Hull City", "Luton Town"],
-        correta: 0,
-        explicacao: "Sunderland se classficou para a Europa League 26/27.",
+        categoria: "Jogadores",
+        texto: "Em que ano Ibrahimovic se aposentou?",
+        opcoes: ["2022", "2024", "2025", "2023"],
+        correta: 3,
+        explicacao: "Ibrahimovic se aposentou em 2023.",
     },
 
     {
@@ -34,36 +34,52 @@ const perguntas = [
     },
 
     {
-        categoria: "HTML",
-        texto: "Qual tag HTML é usada para criar um link?",
-        opcoes: ["link", "a", "href", "url"],
-        correta: 1,
-        explicacao: "A tag <a> ",
+        categoria: "Origem do futebol",
+        texto: "Qual país criou o futebol?",
+        opcoes: ["Inglaterra", "Escócia", "Brasil", "Indonésia"],
+        correta: 0,
+        explicacao: "O futebol foi criado na Inglaterra em 1863.",
     },
 
     {
-        categoria: "HTML",
-        texto: "Qual tag HTML é usada para criar um link?",
-        opcoes: ["link", "a", "href", "url"],
-        correta: 1,
-        explicacao: "A tag <a> ",
+        categoria: "Copa do Mundo",
+        texto: "Qual seleção ganhou a primeira edição da Copa do Mundo?",
+        opcoes: ["Argentina", "Itália", "Alemanha", "Uruguai"],
+        correta: 3,
+        explicacao: "Uruguai ganhou a primeira edição da Copa do Mundo em 1930.",
     },
 
     {
-        categoria: "HTML",
-        texto: "Qual tag HTML é usada para criar um link?",
-        opcoes: ["link", "a", "href", "url"],
+        categoria: "Premier League",
+        texto: "Qual clube ficou 30 anos sem vencer a Premier League?",
+        opcoes: ["Manchester City", "Liverpool", "Manchester United", "Chelsea"],
         correta: 1,
-        explicacao: "A tag <a> ",
+        explicacao: "Liverpool ficou sem ganhar a Premier League de 1990 a 2020.",
     },
 
     {
-        categoria: "HTML",
-        texto: "Qual tag HTML é usada para criar um link?",
-        opcoes: ["link", "a", "href", "url"],
-        correta: 1,
-        explicacao: "A tag <a> ",
+        categoria: "Conhecimentos básicos",
+        texto: "Quantos metros tem da marca do pênalti até a goleira?",
+        opcoes: ["10 metros", "9 metros", "7 metros", "11 metros"],
+        correta: 3,
+        explicacao: "A distância da marca do pênalti até a goleira é de 11 metros.",
     },
+
+    {
+        categoria: "Copa do Mundo",
+        texto: "Quem marcou o gol da semifinal de 2002, Brasil 1 x 0 Turquia",
+        opcoes: ["Rivaldo", "Roberto Carlos", "Ronaldo", "Ronaldinho"],
+        correta: 2,
+        explicacao: "Ronaldo marcou o gol que classificou o Brasil para a final.",
+    },
+
+    {
+        categoria: "Copa do Mundo",
+        texto: "Quais seleções disputaram a final da Copa do Mundo de 2002?",
+        opcoes: ["Brasil x Itália", "Alemanha x Itália", "Alemanha x Brasil", "Brasil x Espanha"],
+        correta: 2,
+        explicacao: "A final foi disputada entre Brasil e Alemanha.",
+    }
 
 ]
 
