@@ -1,0 +1,92 @@
+/* EXERCÍCIO 1 */
+
+/* :root {
+     CORES 
+    --color-bg: #ffffff;
+    --color-border: #e5e7eb;
+    --border-color: #3b82f6;
+    --color-titulo: #1e1e1e;
+    --color-text: #6b7280;
+     ESPAÇAMENTOS 
+    --border: 1px;
+    --padding: 24px;
+    --margin-bottom: 8px;
+     BORDAS 
+    --border-sm: 1px solid;
+    --radius-md: 8px;
+     TIPOGRAFIA 
+   --font-body: 'Inter', sans-serif;
+   --font-size-lg: 1.25rem;
+   --font-size-sm: 0.875rem;
+} */
+
+.card {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 24px;
+    font-family: 'Inter', sans-serif;
+}
+
+.card:hover {
+    border-color: #3b82f6;
+}
+
+.card__titulo {
+    font-size: 20px;
+    color: #1e1e1e;
+    margin-bottom: 8px;
+}
+
+.card__texto {
+    font-size: 14px;
+    color: #6b7280;
+}
+
+/* EXERCÍCIO 2 */
+:root {
+--color-bg: #1a1a2e;
+--color-text: #ffffff;
+--color-p: #94a3b8;
+--padding: 64 px 24px;
+--font-body: 'Georgia', serif;
+--font-size-base: 1rem;
+--margin-top:16px;
+
+}
+
+.hero {
+    background: var(--color-bg);
+    padding: var(--padding);
+  }
+  
+  .hero h1 {
+    color: #ffffff;
+    font-size: 48px;
+    font-family: 'Georgia', serif;
+  }
+  
+  .hero p {
+    color: #94a3b8;
+    font-size: 18px;
+    margin-top: 16px;
+  } 
+
+/* .hero {
+    background: #1a1a2e;
+    padding: 64px 16px;
+  }
+  
+  .hero h1 {
+    color: #ffffff;
+    font-size: 48px;
+    font-family: 'Georgia', serif;
+  }
+  
+  .hero p {
+    color: #94a3b8;
+    font-size: 18px;
+    margin-top: 16px;
+  } */
+
+  /* EXERCÍCIO 3 */

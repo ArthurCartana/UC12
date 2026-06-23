@@ -1,0 +1,87 @@
+/* base.css */
+
+:root {
+    /* ─── Cores ─────────────────────────────────────── */
+    --color-primary:      #3b79f6;   /* azul principal */
+    --color-primary-dark: #1d4ed8;   /* azul escuro — usado em :hover */
+    --color-danger:       #ef4444;   /* vermelho para erros */
+    --color-success:      #22c55e;   /* verde para confirmações */
+  
+    --color-text:         #1e1e1e;   /* texto principal */
+    --color-text-muted:   #6b7280;   /* texto secundário, placeholders */
+    --color-bg:           #ffffff;   /* fundo da página */
+    --color-surface:      #f9fafb;   /* fundo de cards e painéis */
+    --color-border:       #e5e7eb;   /* bordas em geral */
+  
+    /* ─── Espaçamentos ───────────────────────────────── */
+    --spacing-xs:   0.25rem;   /*  4px */
+    --spacing-sm:   0.5rem;    /*  8px */
+    --spacing-md:   1rem;      /* 16px */
+    --spacing-lg:   2rem;      /* 32px */
+    --spacing-xl:   4rem;      /* 64px */
+    /* ↑ rem explicado logo abaixo */
+  
+    /* ─── Tipografia ─────────────────────────────────── */
+    --font-body:       'Inter', sans-serif;
+    --font-size-sm:    0.875rem;   /* 14px */
+    --font-size-base:  1rem;       /* 16px */
+    --font-size-lg:    1.25rem;    /* 20px */
+    --font-size-xl:    1.5rem;     /* 24px */
+    --font-size-2xl:   2rem;       /* 32px */
+  
+    /* ─── Bordas ─────────────────────────────────────── */
+    --radius-sm:   4px;
+    --radius-md:   8px;
+    --radius-lg:   16px;
+    --radius-full: 9999px;   /* formato de pílula */
+  }
+
+  /* Reset */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos globais */
+body {
+  font-family: var(--font-body);
+  font-size: var(--font-size-base);
+  color: var(--color-text);
+  background-color: var(--color-bg);
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4 {
+  line-height: 1.2;
+}
+
+a {
+  color: var(--color-primary);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.page {
+    background-color: var(--color-bg);
+}
+
+header {
+    background-color: var(--color-border);
+}
+
+button {
+    background-color:var(--color-bg);
+    color: var(--color-text)
+}
+
+.dark {
+    --color-bg:      #0f172a;
+    --color-surface: #1e293b;
+    --color-text:    #f1f5f9;
+    --color-border:  #334155;
+    --color-primary: #a032ff;
+  }

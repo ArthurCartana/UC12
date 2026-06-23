@@ -5,7 +5,13 @@
 }
 
 body {
-    background-color: rgb(77, 190, 77);
+    background-color: rgb(77, 190, 77); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
 }
 
 h1 {
@@ -17,6 +23,10 @@ h1 {
 }
 
 .fundo {
+    max-width: 700px;
+    margin: 0;
+    border-radius: 20px;
+    padding: 20px;
     background-color: rgb(41, 14, 223);
 }
 
