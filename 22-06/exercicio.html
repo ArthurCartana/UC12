@@ -8,13 +8,57 @@
 </head>
 <body>
     <h1>EXERCÍCIO 1</h1>
+    <div class="card">
+        <h2 class="card_titulo"> Título do Card</h2>
+        <p class="card_texto">Texto</p>
+    </div>
 
     <hr>
+
     <h1>EXERCÍCIO 2</h1>
     <div class="hero">
         <h1>Bem-vindo ao Nosso Site</h1>
         <p>Uma breve descrição</p>
     </div>
+
+    <hr>
+
+    <h1>EXERCÍCIO 3</h1>
+    <div class="container">
+        <input type="text">
+        <button class="btn">Clique</button>
+    </div>
+
+    <hr>
+
+    <h1>EXERCÍCIO 4</h1>
+    <header class="header">
+        <a href="#" class="header__logo">MeuSite</a>
+        <nav class="header__nav">
+            <a href="#">Início</a>
+            <a href="#">Sobre</a>
+            <a href="#">Contato</a>
+        </nav>
+
+        <button id="toggle-tema" class="btnTema"> Ativar modo escuro </button>
+    </header>
+
+    <hr>
+
+    <h1>EXERCÍCIO 5</h1>
+    <div class="controle">
+        <label for="hue">Hue: <span id="hue-valor">220</span></label>
+        <input type="range" id="hue" min="0" max="360" value="220">
+      </div>
     
+      <div class="paleta">
+        <div class="cor" style="background: var(--color-100);">100</div>
+        <div class="cor" style="background: var(--color-300);">300</div>
+        <div class="cor" style="background: var(--color-500);">500</div>
+        <div class="cor" style="background: var(--color-700);">700</div>
+        <div class="cor" style="background: var(--color-900);">900</div>
+      </div>
+
+    <script src="assets/scripts/exercicio.js"></script>
 </body>
 </html>
