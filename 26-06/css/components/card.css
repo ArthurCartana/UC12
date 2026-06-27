@@ -1,0 +1,5 @@
+/* Card de conteúdo e suas variações */
+
+.card { background: white; border-radius: 8px; } 
+
+.card__titulo { font-size: 1.25rem; }   

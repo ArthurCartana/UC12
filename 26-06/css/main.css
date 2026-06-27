@@ -1,0 +1,21 @@
+/* Importa todos os outros */
+
+@import url('base.css');
+@import url('layout.css');
+@import url('components/nav.css');
+@import url('components/button.css');
+@import url('components/card.css');
+@import url('utils.css');
+
+/* EXERCÍCIO 1 */
+
+* { box-sizing: border-box; margin: 0; padding: 0; }          /* base.css */
+body { font-family: sans-serif; color: #333; }                 /* layout.css */
+:root { --color-primary: #3b82f6; }                            /* base.css */
+.container { max-width: 1200px; margin: 0 auto; }              /* layout.css */
+.site-header { background: var(--color-primary); }             /*layout.css */
+.card { background: white; border-radius: 8px; }               /* components/card.css */
+.card__titulo { font-size: 1.25rem; }                          /* components/card.css */
+.text-center { text-align: center; }                           /* utils.css */
+.site-footer { padding: 2rem 0; }                              /* layout.css */
+.button { background: var(--color-primary); color: white; }    /* components/buttons.css */

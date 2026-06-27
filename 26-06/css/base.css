@@ -1,0 +1,5 @@
+/* Reset, variáveis e estilos globais */
+
+* { box-sizing: border-box; margin: 0; padding: 0; } 
+
+:root { --color-primary: #3b82f6; } 
