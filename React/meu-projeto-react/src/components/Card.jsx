@@ -1,6 +1,8 @@
-function Card ({foto, titulo, paragrafo, texto}) {
+import React from 'react'
+
+function Card ({card, foto, titulo, paragrafo, texto}) {
     return (
-        <div className="card-um">
+        <div className={card}>
             <img src={foto} alt="" />
             <h1>{titulo}</h1>
             <p>{paragrafo}</p>
@@ -8,3 +10,5 @@ function Card ({foto, titulo, paragrafo, texto}) {
         </div>
     )
 }
+
+export default Card

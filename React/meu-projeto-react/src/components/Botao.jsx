@@ -1,9 +1,10 @@
 import React from 'react'
 
-function Botao({ text, background, func}) {
+// assim que criamos um componente reutilizável
+function Botao({text}) {
     return (
         // em JSX, não existe 'class' e sim 'className'
-        <button onClick={func} className={background}>{text}</button>
+        <button className="bg-indigo-600 px-2 py-2 rounded text-white hover:bg-indigo-800 transition-all duration-400">{text}</button>
     )
 }
 
