@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  /* Cores do sistema */
+  --color-creme: #f5ede1;
+  --color-creme-claro: #fbf7f0;
+  --color-cafe-900: #2b1b12;
+  --color-cafe-600: #6b5645;
+  --color-terracota: #a63d2f;
+  --color-terracota-escuro: #832f24;
+  --color-musgo: #7a8a5e;
+
+  /* Fontes do sistema */
+  --font-display: "Fraunces", serif;
+  --font-body: "Work Sans", sans-serif;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-creme);
+  color: var(--color-cafe-900);
+}
