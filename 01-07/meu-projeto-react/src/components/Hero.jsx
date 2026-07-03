@@ -31,10 +31,12 @@ function Hero({ titulo, subtitulo, imagem }) {
                 </div>
 
                 <div className='flex-1'>
-                    <img src={imagem}
+                    <img src="https://media.istockphoto.com/id/2232885441/pt/foto/white-cup-of-black-coffee-on-coffee-beans-background-top-view.jpg?b=1&s=612x612&w=0&k=20&c=lAGMnmHWAE_XOwaWvAFJplZVt9fn_OzrDYH46FPGgWg="
                         alt="Xícara de café especial servida na cafeteria Grão"
-                        className='rounded-3xl w-full h-[420px] object-cover shadow-xl'
-                    />
+                        className='rounded-3xl w-full h-[420px] object-cover shadow-xl'/>
+                </div>
+                <div className='flex-1'>
+                    <span className='font-body text-sm uppercase text-musgo font-medium'></span>
                 </div>
             </div>
         </section>
