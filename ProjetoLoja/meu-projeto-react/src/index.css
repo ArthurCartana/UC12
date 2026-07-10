@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  /* Cores do sistema */
+  --fundo-base: #15130f;
+  --fundo-elevado: #1e1a13;
+  --texto-principal: #f2efe6;
+  --texto-secundario: #b4ac98;
+  --amarelo-selo: #f2c11a;
+  --vermelho-selo: #ff5a45;
+
+  /* Fontes do sistema */
+  --font-display: "Fraunces", serif;
+  --font-body: "Work Sans", sans-serif;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--fundo-base);
+  color: var(--fundo-elevado);
+}
